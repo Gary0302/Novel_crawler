@@ -5,7 +5,6 @@ import os
 import time
 
 def CZcrawl_novel(start_url):
-    
     def extract_book_title(html):
         """從 HTML 中提取書名"""
         soup = BeautifulSoup(html, "html.parser")
